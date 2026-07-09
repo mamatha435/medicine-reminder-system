@@ -1,3 +1,4 @@
+                              User Configurable Medicine Reminder System Interfacing with RTC
 The User Configurable Medicine Reminder is an embedded healthcare system developed to help patients take their medications at the prescribed time. The project is implemented using an ARM-based microcontroller with a Real-Time Clock (RTC), LCD display, matrix keypad, buzzer and interrupt-based control system.
 
 The system allows users to configure medicine reminder timings through a keypad interface, configured schedule is stored and continuously monitored using the RTC, current date and time are displayed on the LCD and when the programmed medicine time matches the RTC, the system activates a buzzer and displays a reminder message on the LCD. The reminder can be acknowledged or stopped using a dedicated interrupt button.
